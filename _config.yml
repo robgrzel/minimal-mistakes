@@ -9,7 +9,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en"
-title                    : "Dev Notes, or how to whack and hack!"
+title                    : "Home"
 title_separator          : "-"
 name                     : "Robert Grzelka"
 description              : "My personal notes, used also to play more with docker."
@@ -85,9 +85,9 @@ analytics:
 author:
   name             : "Robert Grzelka"
   avatar           : "assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Dev Notes, or how to whack and hack!"
   location         : "Sweden, Gotheborg."
-  email            : "robert.grzelka|-.-|outlook.com"
+  email            : "robert.grzelka@outlook.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -247,6 +247,7 @@ defaults:
       type: posts
     values:
       layout: single
+      toc: true
       author_profile: true
       read_time: true
       comments: # true
