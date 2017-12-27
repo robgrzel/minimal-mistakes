@@ -83,10 +83,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           :  "/assets/images/bio-photo.jpg"
+  name             : "Robert Grzelka"
+  avatar           : "assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
+  location         : "Sweden, Gotheborg."
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
