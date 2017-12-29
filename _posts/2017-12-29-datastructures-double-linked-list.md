@@ -1,17 +1,13 @@
 ---
 title: "Data-Structures: double linked list"
 categories:
-  - Datastructures Unittests
+  - Data Sructures Unit Tests
 tags:
-  - Tests
   - Unit Tests
   - Data Structures
-  - Data
-  - Structures
   - Java
   - Algorithms
   - Linked List
-  - List
   - Double Linked List
   - JUnit5
   - Intelji IDEA-U
