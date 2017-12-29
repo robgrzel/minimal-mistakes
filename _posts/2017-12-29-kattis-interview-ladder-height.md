@@ -2,10 +2,10 @@
 title: "Kattis: basics - ladder height"
 categories:
   - Kattis Basics
-  - Basic Java
+  - Java
 tags:
   - Kattis
-  - Basic
+  - Basics
   - Programming
   - Java
   - Algorithms

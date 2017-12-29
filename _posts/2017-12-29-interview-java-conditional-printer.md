@@ -5,7 +5,7 @@ categories:
   - Basic Java
 tags:
   - Kattis
-  - Basic
+  - Basics
   - Programming
   - Java
   - Algorithms

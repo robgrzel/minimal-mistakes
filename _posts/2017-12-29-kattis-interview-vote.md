@@ -2,10 +2,10 @@
 title: "Kattis: basics - vote"
 categories:
   - Kattis Basics
-  - Basic Java
+  - Java
 tags:
   - Kattis
-  - Basic
+  - Basic 
   - Programming
   - Java
   - Algorithms
