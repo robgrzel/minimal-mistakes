@@ -6,12 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fa5469e-5cf0-4863-8a05-43e9beb5b1aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-29-datastructures-time-complexity.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-29-datastructures-types.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-29-interview-java-conditional-printer.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-29-kattis-interview-ladder-height.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-29-kattis-interview-vote.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" afterPath="$PROJECT_DIR$/_pages/about.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/_pages/about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-735">
-                <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="32" />
+              <first_editor relative-caret-position="378">
+                <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -128,13 +122,13 @@
         <option value="$PROJECT_DIR$/_posts/2017-12-29_datastructures_double-linked-list.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2017-12-29-datastructures-double-linked-list.md" />
-        <option value="$PROJECT_DIR$/_pages/about.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-29-datastructures-types.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-29-datastructures-time-complexity.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-29-kattis-ladder-height.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-29-kattis-interview-ladder-height.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-29-kattis-interview-vote.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-29-interview-java-conditional-printer.md" />
+        <option value="$PROJECT_DIR$/_pages/about.md" />
       </list>
     </option>
   </component>
@@ -238,7 +232,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63697000" />
+    <option name="totallyTimeSpent" value="63745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-1359" width="2418" height="1318" extended-state="6" />
@@ -933,8 +927,8 @@
     <entry file="file://$PROJECT_DIR$/_pages/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-735">
-            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="32" />
+          <first_editor relative-caret-position="378">
+            <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
