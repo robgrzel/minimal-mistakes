@@ -12,7 +12,54 @@ author_profile: false
 
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme.
+# Who I'am
+
+If You look for employes with this characteristics:
+```bash
+# MsC study in Computer Science
+# 6 years of work experience in IT, including C++, Java, Python
+# Young, energetic and objective!
+```
+
+I'm here right for You, thought did not start working in IT when I was 13!
+
+I'm an engineer, an programmer. I like Java, C++ and Python. Haskell I hate You! 
+Fight to make dreams come true! Feel as most happy man in the Worlds when I have so beautiful girlfriend!
+
+Currently I live in Sweden and even if its expensive I love this country. Besides, I'm from Poland and even if this country is fake, pitfull to live in, I'm proud to be of Polish Nation. Will make it better.
+
+## Specialization
+
+I see my self in IT, wish to make many things, thought have only limited time.
+
+Hard to pick what I would like to specialize in from:
+- Network Security
+- Algorithms
+- Robotics
+- Operating Systems
+- Distributed Systems
+
+Probably will stick to:
+- Network Security
+- Algorithms
+
+## Plans
+
+Todo (in any order):
+- Get Job in IT
+- Get MsC in IT
+- Mine Ethereum
+- Upgrade and do planche
+- Marry
+- Buy house
+- Have kids
+- Hit first M$$
+- ...
+- Have 100 wifes...
+- Be trillionare......
+- Eat from golden plates.......
+- So on ............................
+
 
 {% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
 
@@ -54,5 +101,3 @@ For even more demo pages check the [posts archive][year-archive].
 - [Jekyll](https://jekyllrb.com/)
 
 ---
-
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
