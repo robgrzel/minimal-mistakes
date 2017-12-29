@@ -1,19 +1,20 @@
 ---
 title: "Data-Structures: double linked list"
-
 categories:
-  - Data-Structures double-linked-list
-  
+  - Datastructures Unittests
 tags:
-  - Data-Structures
+  - Tests
+  - Unit Tests
+  - Data Structures
   - Data
   - Structures
   - Java
   - Algorithms
-  - Linked-List
+  - Linked List
   - List
-  - Double-Linked-List
-  
+  - Double Linked List
+  - JUnit5
+  - Intelji IDEA-U
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: /assets/images/unsplash-gallery-image-1-th.jpg
@@ -21,8 +22,6 @@ gallery:
     title: "Image 1 title caption"
 ---
 
-
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
 # Java Implementation of Double-Linked-List
 
@@ -326,3 +325,5 @@ public class DoubleLinkedList<E> implements Iterable<E> {
 }
 
 ```
+
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
