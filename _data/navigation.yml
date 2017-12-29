@@ -1,12 +1,18 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "Home"
+    url: /home/
   - title: "About"
     url: /about/
   - title: "Posts"
-    url: /posts-archive/
+    url: /posts/
+  - title: "Tags"
+    url: /tags/
+  - title: "Categories"
+    url: /categories/
   - title: "Collections"
-    url: /collection-archive/
+    url: /collections/
   - title: "Sitemap"
     url: /sitemap/
+  - title: "[Dev Docs]"
+    url: /docs/
