@@ -4,98 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/_notes/vbox.md" line="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fa5469e-5cf0-4863-8a05-43e9beb5b1aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/bash.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/cmake.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/cpp.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/hpc.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/java.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/jetbrains.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/linux.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/mining.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/python.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/vbox.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/visual-studio.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_notes/windows.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-29_datastructures_double-linked-list.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/RunInDocker.ps1" afterPath="$PROJECT_DIR$/RunInDocker.ps1" />
-      <change beforePath="$PROJECT_DIR$/_config.dev.yml" afterPath="$PROJECT_DIR$/_config.dev.yml" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="$PROJECT_DIR$/_data/navigation.yml" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" afterPath="$PROJECT_DIR$/_pages/about.md" />
-      <change beforePath="$PROJECT_DIR$/_pages/category-archive.html" afterPath="$PROJECT_DIR$/_pages/category-archive.html" />
-      <change beforePath="$PROJECT_DIR$/_pages/collection-archive.html" afterPath="$PROJECT_DIR$/_pages/collection-archive.html" />
-      <change beforePath="$PROJECT_DIR$/_pages/home.md" afterPath="$PROJECT_DIR$/_pages/home.md" />
-      <change beforePath="$PROJECT_DIR$/_pages/page-archive.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_pages/tag-archive.html" afterPath="$PROJECT_DIR$/_pages/tag-archive.html" />
-      <change beforePath="$PROJECT_DIR$/_pages/year-archive.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2009-05-15-edge-case-nested-and-mixed-lists.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2009-06-01-edge-case-many-tags.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2009-07-02-edge-case-many-categories.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2009-08-06-edge-case-no-body-content.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2009-09-05-edge-case-no-yaml-title.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2009-10-05-edge-case-title-should-not-overflow-the-content-area.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2009-10-05-edge-case-very-long-title.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-01-07-post-modified.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-01-07-post-standard.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-01-08-post-chat.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-02-05-post-notice.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-02-05-post-quote.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-03-07-post-link.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-06-02-post-video-youtube.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-08-05-post-header-image-og-override.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-08-05-post-header-overlay-image-og-override.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-08-05-post-image-linked.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-08-05-post-image-standard.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-08-05-post-teaser-image-og-override.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-08-06-post-image-linked-caption.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-08-07-post-image-caption.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-09-10-post-twitter-embeds.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2010-10-25-post-future-date.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-02-layout-comments-disabled.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-02-layout-comments.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-02-layout-read-time-disabled.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-02-layout-read-time.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-02-layout-related-posts-disabled.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-02-layout-related-posts.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-02-layout-sharing-disabled.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-02-layout-sharing.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-03-layout-read-time-comments-sharing-related-posts-disabled.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-01-03-layout-table-of-contents-post.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-14-layout-code-excerpt-generated.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-14-layout-excerpt-defined.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-14-layout-excerpt-generated.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-author-override.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-author-sidebar-disabled.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-header-image-external.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-header-image-horizontal.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-header-image-text-readability.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-header-image-vertical.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-header-overlay-color.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-header-overlay-image.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-more-tag.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-sidebar-custom.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-03-15-layout-sidebar-nav-list.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2012-05-22-markup-text-readability.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-05-markup-title-with-markup.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-05-markup-title-with-special-characters.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-09-markup-text-alignment.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-10-markup-image-alignment.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-01-11-markup-html-tags-and-formatting.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-05-22-markup-more-images.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2013-08-16-markup-syntax-highlighting.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-02-24-welcome-to-jekyll.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-07-20-null_post.md" afterPath="$PROJECT_DIR$/_posts/2016-07-20-null_post.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-09-21-gemified-theme-alpha.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-10-06-gemified-theme-beta.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-01-23-layout-header-video.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-11-28-post-exclude-search.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="8fa5469e-5cf0-4863-8a05-43e9beb5b1aa" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -338,7 +247,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53602000" />
+    <option name="totallyTimeSpent" value="53713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-1359" width="2418" height="1318" extended-state="6" />
