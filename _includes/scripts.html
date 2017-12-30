@@ -18,3 +18,11 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+<script language="javascript">
+  var localTime = new Date();
+  var strLocal = ("Local machine time is: " + localTime + "<br>").fontsize(1);
+  var strGlobal = ("Server time is: " + date).fontsize(1);
+  document.write('<div style="text-align: center;"><i><b>'+strLocal+"</b></i></div>");
+  document.write('<div style="text-align: center;"><i><b>'+strGlobal+"</b></i></center>");
+</script>
