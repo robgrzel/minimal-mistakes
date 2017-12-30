@@ -9,7 +9,7 @@ tags:
   - Programming
   - Java
   - Algorithms
-problem_gallery:
+gallery:
   - url: /assets/images/ladder-hright.png
     image_path: /assets/images/ladder-hright.png
     alt: "splash layout example"

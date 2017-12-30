@@ -9,9 +9,9 @@ tags:
   - Programming
   - Java
   - Algorithms
-problem_gallery:
-  - url: /assets/images/ladder-hright.png
-    image_path: /assets/images/ladder-hright.png
+gallery:
+  - url: /assets/images/ladder-height.png
+    image_path: /assets/images/ladder-height.png
     alt: "splash layout example"
 ---
 
@@ -19,7 +19,7 @@ problem_gallery:
  
 During one of my interviews I had to solve problem:
 
-{% include problem_gallery id="intro" type="center" %}
+{% include gallery id="intro" type="center" %}
 
 
 Solution in Java is very simple, its worth to note that I had to use ceil to round in Java to get next integer from float. 
