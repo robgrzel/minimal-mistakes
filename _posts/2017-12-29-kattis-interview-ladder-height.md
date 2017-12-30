@@ -1,5 +1,5 @@
 ---
-title: "Kattis: basics - ladder height"
+title: "Kattis: basics - ladder length"
 categories:
   - Kattis Basics
   - Java
