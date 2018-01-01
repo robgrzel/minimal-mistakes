@@ -17,7 +17,7 @@ author_profile: false
 If You look for employes with this characteristics:
 ```bash
 # MsC study in Computer Science
-# 6 years of work experience in IT, including C++, Java, Python
+# 6 years of experience in IT on C++, Java, Python
 # Young, energetic and objective!
 ```
 
@@ -56,6 +56,9 @@ Todo (in any order):
 - Hit first M$$
 - ...
 
+---
+[Below its template that I may use later for this page...]
+---
 
 {% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
 

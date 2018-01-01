@@ -241,22 +241,7 @@ compress_html:
 
 # Collections
 collections:
-  DataStructures:
-    output: true
-    permalink: /:collection/:path/
-  TestingDebuggingVerification:
-    output: true
-    permalink: /:collection/:path/
-  OpenGL:
-    output: true
-    permalink: /:collection/:path/
-  DistributedSystems:
-    output: true
-    permalink: /:collection/:path/
-  SOA:
-    output: true
-    permalink: /:collection/:path/
-  ANN:
+  Studies:
     output: true
     permalink: /:collection/:path/
   Notes:
@@ -315,6 +300,18 @@ defaults:
   - scope:
       path: "_notes"
       type: notes
+    values:
+      layout: single
+      read_time: true
+      author_profile: true
+      share: true
+      comments: true
+      sidebar:
+        nav: "notes"
+  # _studies
+  - scope:
+      path: "_studies"
+      type: studies
     values:
       layout: single
       read_time: true

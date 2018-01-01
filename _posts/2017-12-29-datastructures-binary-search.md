@@ -1,10 +1,12 @@
 ---
 title: "Data-Structures: double linked list"
+collections:
+  - Studies
 categories:
   - Data Sructures
-  - Unit Tests
+  - Binary Search
 tags:
-  - Interview
+  - Binary Search
   - Unit Tests
   - Data Structures
   - Java

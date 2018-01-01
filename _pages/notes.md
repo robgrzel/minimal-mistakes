@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /home/
+permalink: /notes/
 header:
   overlay_color: "#5e616c"
   overlay_image: "/assets/images/mirai.jpg"

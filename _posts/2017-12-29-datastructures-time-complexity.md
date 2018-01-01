@@ -1,8 +1,10 @@
 ---
 title: "Data-Structures: worst case time complexity"
 categories:
-  - Datastructures Complexity
+  - Data Structures
+  - Complexity
 tags:
+  - Complexity
   - Data Structures
   - Data
   - Structures

@@ -2,11 +2,12 @@
 layout: default
 title: "Data-Structures: types & selection"
 categories:
-  - Datastructures Types Selection
+  - Datastructures 
+  - Types 
 tags:
   - Data Structures
-  - Data
-  - Structures
+  - Types
+  - Selection
   - Java
   - Algorithms
 gallery:

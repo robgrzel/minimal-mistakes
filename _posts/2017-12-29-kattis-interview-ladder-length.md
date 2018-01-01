@@ -1,8 +1,8 @@
 ---
 title: "Kattis: basics - ladder length"
 categories:
-  - Kattis Basics
-  - Java
+  - Kattis 
+  - Java 
 tags:
   - Kattis
   - Basics

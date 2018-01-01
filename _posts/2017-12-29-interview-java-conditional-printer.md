@@ -1,10 +1,10 @@
 ---
 title: "Interview-Task: conditional printing"
 categories:
-  - Interview Task
-  - Basic Java
+  - Interview 
+  - Java 
 tags:
-  - Kattis
+  - Interview
   - Basics
   - Programming
   - Java
