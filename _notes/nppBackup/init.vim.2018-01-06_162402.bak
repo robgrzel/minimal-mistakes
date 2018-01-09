@@ -1,0 +1,208 @@
+call plug#begin('~/.vim/plugged')
+
+
+" ################## FROM Plug INTRO #######################################
+" https://github.com/junegunn/vim-plug
+
+" vimproc is a great asynchronous execution library for Vim
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
+
+" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+Plug 'junegunn/vim-easy-align'
+
+" Any valid git URL is allowed
+Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+
+" Multiple Plug commands can be written in a single line using | separators
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+
+" Using a non-master branch
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+
+" Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
+Plug 'fatih/vim-go', { 'tag': '*' }
+
+" Plugin options
+Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
+
+" Plugin outside ~/.vim/plugged with post-update hook
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+" Core building block for vim as C/C++ IDE. (disabled, some bug with python)
+" Plug 'foxcpp/cmake_index.nvim', { 'do': ':UpdateRemotePlugins' }
+
+" ######################### Yavide plugins:
+
+" Alternate Files quickly (.c --> .h etc)
+Plug 'vim-scripts/a.vim'
+
+"True Sublime Text style multiple selections for Vim
+Plug 'terryma/vim-multiple-cursors'
+
+" Vim plugin for intensely orgasmic commenting
+Plug 'scrooloose/nerdcommenter'
+
+"This plugin uses clang for accurately completing C and C++ code.
+Plug 'Rip-Rip/clang_complete', {'do' : 'make install'}
+
+"Vim plugin that displays tags in a window, ordered by scope http://majutsushi.github.io/tagbar/
+Plug 'majutsushi/tagbar'
+
+"lean & mean status/tabline for vim that's light as air
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+"This plugin for Vim enable an auto-close chars feature for you. For instance
+"if you type an '(', ``autoclose`` will automatically insert a ')' and put the
+"cursor between than. http://townk.github.com/vim-autoclose/
+Plug 'Townk/vim-autoclose'
+
+"fugitive.vim: a Git wrapper so awesome, it should be illegal
+Plug 'tpope/vim-fugitive'
+
+" A Vim plugin which shows a git diff in the gutter (sign column) and stages/undoes hunks.
+Plug 'airblade/vim-gitgutter'
+
+" ############## OTHERS
+" Vim GDB front-end for neovim
+Plug 'huawenyu/neogdb.vim'
+
+" Structure
+Plug 'majutsushi/tagbar'
+
+Plug 'chrisbra/csv.vim'
+
+" Syntax checking hacks for vim
+Plug 'vim-syntastic/syntastic'
+"Ease your git workflow within Vim
+Plug 'jreybert/vimagit'
+
+" Show a diff using Vim its sign column.
+Plug 'mhinz/vim-signify'
+
+" Vim plugin for working with python virtualenvs
+Plug 'plytophogy/vim-virtualenv'
+
+Plug 'ashisha/image.vim'
+
+"Plug 'tweekmonster/deoplete-clang2'
+
+"Plug 'Shougo/deoplete.nvim'
+
+Plug 'Valloric/YouCompleteMe'
+
+Plug 'dbgx/lldb.nvim'
+
+Plug 'mlr-msft/vim-loves-dafny', {'for': 'dafny'}
+
+" https://linode.com/docs/tools-reference/tools/how-to-install-neovim-and-plugins-with-vim-plug/
+Plug 'roxma/nvim-completion-manager'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'brooth/far.vim'
+
+
+" Neomake for async make
+Plug 'neomake/neomake'
+
+" GDB debugger
+Plug 'vim-scripts/Conque-GDB'
+
+" Powerful shell implemented by vim
+Plug 'Shougo/vimshell.vim'
+
+
+"""""""""""" LANGUAGES SUPPORT
+
+Plugin 'tpope/vim-commentary'               " Comment stuff out
+Plugin 'mitsuhiko/vim-sparkup'              " Sparkup(XML/jinja/htlm-django/etc.) support
+Plugin 'Rykka/riv.vim'                      " ReStructuredText plugin
+Plugin 'Valloric/YouCompleteMe'             " Autocomplete plugin
+
+
+"""""""""""" PYTHON
+
+Plugin 'klen/python-mode'                   " Python mode (docs, refactor, lints...)
+Plugin 'scrooloose/syntastic'               " Syntax checking plugin for Vim
+
+call plug#end()
+
+
+
+" ####################################### user configs
+
+filetype plugin indent on
+syntax on set number
+set relativenumber
+set incsearch
+set ignorecase
+set smartcase
+set nohlsearch
+set tabstop=4
+set softtabstop=0
+set shiftwidth=4
+set expandtab
+
+let g:gitgutter_max_signs = 10000  " default value
+
+let g:clang_library_path='/usr/lib/llvm-3.8/lib'
+let b:clang_user_options = '-std=c++11'
+let g:clang_complete_auto = 1
+let g:clang_complete_copen = 1
+
+"colorscheme codedark
+
+let g:airline#extensions#tabline#enabled = 1
+"let g:airline_theme = 'codedark'
+let g:minimap_highlight='Visual'
+
+"nmap <F8> :TagbarToggle<CR>
+
+" Show at startup
+autocmd VimEnter * NERDTree
+autocmd VimEnter * TagbarToggle
+autocmd VimEnter * VirtualEnvList
+
+
+"Syntax checking hacks for vim
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:loaded_python_provider=1
+
+"let g:ycm_server_python_interpreter='/urs/bin/python2.7'
+
+
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
+
+""""""" General coding stuff """""""
+" Highlight 80th column
+set colorcolumn=80
+" Always show status bar
+set laststatus=2
+" Let plugins show effects after 500ms, not 4s
+set updatetime=500
+
+
+""""""" Python stuff """""""
+syntax enable
+set number showmatch
+set shiftwidth=4 tabstop=4 softtabstop=4 expandtab autoindent
+let python_highlight_all = 1
+
+
+"NOTES:
+":wincmd r to swap the two buffers but keep the window layout the same.
+":wincmd w to move the cursor between the two windows/buffers.
+":wincmd J to go from vertical to horizontal layout.
+":wincmd H to go from horizontal to vertical layout.

@@ -1,0 +1,157 @@
+call plug#begin('~/.vim/plugged')
+
+
+
+""""""""""""""""""""""""""""" Shougo plugins
+
+Plug 'Shougo/vimproc.vim', {'do' : 'make'} " Interactive command execution in Vim.
+Plug 'Shougo/vimshell.vim'
+Plug 'Shougo/deol.nvim' " Dark powered shell interface for NeoVim and Vim8.
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/neosnippet'          " neo-snippet plugin...
+Plug 'Shougo/neosnippet-snippets' " ...
+Plug 'Shougo/neossh.vim' "SSH interface for Vim plugins
+Plug 'Shougo/denite.nvim' " Replace, unite. Dark powered asynchronous unite all interfaces for Neovim/Vim8
+Plug 'Shougo/echodoc.vim' " Print documents in echo area.
+Plug 'Shougo/vimfiler.vim' " Powerful file explorer implemented by Vim script
+
+Plug 'Shougo/neoyank.vim' "	Saves yank history includes unite.vim history/yank source.
+
+Plug 'Shougo/context_filetype.vim' "Context filetype library for Vim script
+
+Plug 'Shougo/vinarise.vim' "Ultimate hex editing system with Vim
+Plug 'Shougo/junkfile.vim' "Create temporary file for memo, testing, ...
+
+""" Shougo forks
+Plug 'artur-shaik/vim-javacomplete2' " Forked by Shougo
+Plug 'Shougo/javacomplete'
+Plug 'zchee/deoplete-go'
+Plug 'osyo-manga/vim-watchdogs' "Async syntax checking...
+Plug 'osyo-manga/shabadou.vim' "...
+Plug 'jceb/vim-hier' "...
+Plug 'dannyob/quickfixstatus' "...
+
+
+""""""""""""""""""""""""""""" Others
+
+Plug 'thinca/vim-quickrun'
+Plug 'thinca/vim-localrc'
+Plug 'kana/vim-fakeclip' "Vim plugin: Provide pseudo "clipboard" registers
+Plug 'syngan/vim-vimlint' "lint for vim script...
+Plug 'ynkdir/vim-vimlparser' "...
+Plug 'tweekmonster/helpful.vim' " Display vim version numbers in docs
+Plug 'editorconfig/editorconfig-vim' "EditorConfig plugin for Vim http://editorconfig.org
+Plug 'tbastos/vim-lua' "Improved Lua 5.3 syntax and indentation support for Vim
+Plug 'mlr-msft/vim-loves-dafny', {'for': 'dafny'} "a vim plugin for Dafny, a verified programming language. https://dafny.codeplex.com/
+
+""""""""""""""""""""""""""""" Neovim plugins
+Plug 'scrooloose/syntastic' "Check your .vimrc for errors...
+Plug 'dbakker/vim-lint' "...
+
+Plug 'neomake/neomake' "Asynchronous linting and make framework for Neovim/Vim
+Plug 'tweekmonster/deoplete-clang2'
+
+
+
+call plug#end()
+
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""" PLUGINS CONFIG
+
+
+"""""""""""""""""" Neomake
+" When writing a buffer, and on normal mode changes (after 750ms).
+call neomake#configure#automake('nw', 750)
+
+
+"""""""""""""""""" Shougo config """"""""""""""""""
+
+"""""""""""""""""" neosnippet
+let g:neosnippet#enable_snipmate_compatibility = 1
+
+"""""""""""""""""" deoplete
+let g:deoplete#enable_at_startup = 1
+
+"""""""""""""""""" vimfiler config
+let g:vimfiler_as_default_explorer = 1 " run with :VimFiler
+
+"""""""""""""""""" echodoc.vim
+set cmdheight=2 "  Otherwise, the -- INSERT -- mode text will overwrite echodoc's text.
+
+
+"""""""""""""""""" Shougo/unite.vim
+
+"""""""""""""""""" thinca/vim-quickrun
+let g:quickrun_config = {}
+let g:quickrun_config.haskell = {'command' : 'runhugs'}
+"" NOTES:
+" Execute current buffer. :QuickRun
+" Execute current buffer from line 3 to line 6.:3,6QuickRun
+" Execute current buffer as perl program.	:QuickRun perl
+" Execute one-liner program given from command-line.	:QuickRun ruby -src 'puts "Hello, world!"'
+
+
+" ####################################### user configs
+
+""""""" General coding stuff """""""
+
+filetype plugin indent on
+syntax on
+set relativenumber
+set incsearch
+set ignorecase
+set smartcase
+set nohlsearch
+
+
+""""""" Python stuff """""""
+syntax enable
+set number
+set showmatch
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab
+set autoindent
+let python_highlight_all = 1
+
+
+" Highlight 80th column
+set colorcolumn=80
+" Always show status bar
+set laststatus=2
+" Let plugins show effects after 500ms, not 4s
+set updatetime=500
+
+
+let g:gitgutter_max_signs = 10000  " default value
+
+let g:clang_library_path='/usr/lib/llvm-3.8/lib'
+let b:clang_user_options = '-std=c++11'
+let g:clang_complete_auto = 1
+let g:clang_complete_copen = 1
+
+"colorscheme codedark
+
+let g:airline#extensions#tabline#enabled = 1
+let g:minimap_highlight='Visual'
+
+
+"Syntax checking hacks for vim
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+
+"NOTES:
+":wincmd r to swap the two buffers but keep the window layout the same.
+":wincmd w to move the cursor between the two windows/buffers.
+":wincmd J to go from vertical to horizontal layout.
+":wincmd H to go from horizontal to vertical layout.

@@ -83,8 +83,8 @@ feature_row:
     btn_label: "goto"
     
   - image_path: /assets/images/
-    alt: "Vim-spf13"
-    title: "Vim-spf13 Notes"
+    alt: "Vim"
+    title: "Vim Notes"
     excerpt: ""
     url: "/notes/vim_notes/"
     btn_class: "btn--primary"
