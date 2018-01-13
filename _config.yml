@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : ":::..."
 title_separator          : "-"
 name                     : "Robert Grzelka"
-description              : "My personal notes, used also to play more with docker."
+description              : "My personal -/study notes and way to be more organized!"
 url                      : https://robgrzel.github.io
 baseurl                  : ""# the subpath of your site, e.g. "/blog"
 repository               : "robgrzel/robgrzel.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -241,9 +241,6 @@ compress_html:
 
 # Collections
 collections:
-  Studies:
-    output: true
-    permalink: /:collection/:path/
   Notes:
     output: true
     permalink: /:collection/:path/
@@ -300,18 +297,6 @@ defaults:
   - scope:
       path: "_notes"
       type: notes
-    values:
-      layout: single
-      read_time: true
-      author_profile: true
-      share: true
-      comments: true
-      sidebar:
-        nav: "notes"
-  # _studies
-  - scope:
-      path: "_studies"
-      type: studies
     values:
       layout: single
       read_time: true
