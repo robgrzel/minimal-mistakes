@@ -50,69 +50,24 @@ author_profile: false
 ## must be:
 - nvim (made by Shougo)
 - only terminal
-- not light, not dark side, grey (dark is ide, light is cmd)
+- not light, not dark side, grey (dark is ide, light is terminal apps)
 - use Shougo favourite plugins that match nvim perfectly:
 -- [why?](http://howivim.com/2016/shougo/)
 -- dein
 -- denim
 -- vimproc.vim
 -- denite/unite.vim
--- deoplete.nvim/neocomplete.vim:
---- we do not need YCM when nvim is async as opposite to vim
+-- deoplete.nvim/neocomplete.vim (we do not need YCM when nvim is async opposite to vim)
 -- vimshell.vim
--- vimfiler.vim or NERDTree
+-- vimfiler.vim
 
 ## optional:
 - easy to do user config or fork and reconfig
-
-## winner
-
-- create your own distro based on rafi and navim:
--- fork rafi/vim-config and merge it with navim
-
-# VIM MODIFIED KEYMAP
-
-##how to check keymap:
-:verbose nmap <...>
-
-##popular keymap:
-
-nmap <-> fast switch between window area
-namp <C-2> jump to next word
-nmap <C--> zoom out
-namp <C-+> zoom int
-nmap <C-q> ...
-nmap <C-w> ...
-nmap <C-e> ...
-nmap <C-r> reload file
-nmap <C-t> err: tag bar empty
-	 <C-y> ...
-	 <C-u> ...
-	 <C-i> ...
-	 <C-o> 
-	 <c,i,d> remove current word
-vmap > or < indent left or right 
-   
-##popular commands	 
-:%s/foo/bar/g
-Find each occurrence of 'foo' (in all lines), and replace it with 'bar'.
-Vim replace:
 
 
 
 
 # VIM CONFIG
-
-## General Info
-
-### Vimrc config syntax is based on python.
-
-### To create list with multilines
-
-list = [
-  / line1,
-  / line2,
-/]
 
 ## My plugins
 
