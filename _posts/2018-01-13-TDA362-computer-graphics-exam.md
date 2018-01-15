@@ -1,5 +1,5 @@
 ---
-title: "TDA362 CG: exam notes"
+title: "TDA362 Computer Graphics: exam notes"
 categories:
   - TDA362 
   - Exam

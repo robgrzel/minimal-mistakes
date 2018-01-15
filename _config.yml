@@ -241,9 +241,6 @@ compress_html:
 
 # Collections
 collections:
-  Notes:
-    output: true
-    permalink: /:collection/:path/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -293,15 +290,3 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
-  # _docs
-  - scope:
-      path: "_notes"
-      type: notes
-    values:
-      layout: single
-      read_time: true
-      author_profile: true
-      share: true
-      comments: true
-      sidebar:
-        nav: "notes"

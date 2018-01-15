@@ -40,6 +40,8 @@ set-variable -name DISPLAY -value 192.168.1.102:0.0
 
 # DOCKER FILE
 
+Save content to file: Dockerfile. Also keep it in root/parent directory of ie. Github.
+
 ```Batch
 FROM ubuntu:14.04
 RUN apt-get update && apt-get install -y firefox

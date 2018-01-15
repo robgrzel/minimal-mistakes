@@ -78,24 +78,6 @@ docker rm $(docker ps -a -q)
 # remove images with <none> name and force it (usually remove all images -.-)
 docker rmi $(docker images -f "dangling=true" -q) -f
 ```
-
-# INSTANTIATE MININET CONTAINER IN VOLUME
-```powershell
-
-docker volume create mininet
-
-# download container (https://hub.docker.com/r/qvestor/mininet/)
-docker pull qvestor/mininet
-
-# create mininet-container with volume mininet mounter in /home/mininet ; 
-docker run -it --privileged -v mininet:/home/mininet --name mininet-container qvestor/mininet /bin/bash
-
-# now inside container run:
-service openvswitch-switch start
-
-# P.S. If error like Exception: Error creating interface pair (s1-eth1,s2-eth1): RTNETLINK answers: File existsts occurs, type:
-mn -c to clean up mininet
-```
 # SETUP PINTOS CONTAINER IN VOLUME AND RUN IT AS USER PINTOS
 
 ## build image
